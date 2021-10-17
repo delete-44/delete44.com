@@ -2,7 +2,10 @@ import React from "react";
 
 export default function GitHub() {
   return (
-    <a href={process.env.githubLink} className="flex-column inline-flex-ns items-center">
+    <a
+      href={process.env.githubLink}
+      className="flex-column inline-flex-ns items-center"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="64"

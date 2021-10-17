@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import GitHub from "./icons/github";
+import LinkedIn from "./icons/linkedin";
 
 export default function Home() {
   return (
@@ -44,12 +45,7 @@ export default function Home() {
               width={64}
               height={64}
             />
-            <Image
-              src="/linkedin.svg"
-              alt="LinkedIn Logo"
-              width={64}
-              height={64}
-            />
+            <LinkedIn />
           </nav>
         </section>
       </main>
