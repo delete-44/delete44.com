@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-}
-
 h1 {
   font-size: 4em;
   font-weight: 100;
-  margin-bottom: 0;
 }
 
 small {
@@ -25,11 +16,7 @@ p {
   font-weight: 300;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  line-height: 1.6;
 }
