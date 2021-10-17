@@ -10,13 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="d-flex justify-content-center align-items-center min-vh-100">
-        <section className="col-md-4">
-          <h1 className="my-0">Hi, I'm Anthony...</h1>
+      <main className="flex justify-around items-center min-vh-100">
+        <section className="w-40">
+          <h1 className="mb0">Hi, I'm Anthony...</h1>
 
           <small>He/Him</small>
 
-          <p className="mt-4">
+          <p className="mt4">
             I'm a software developer &amp; music nerd, currently spending most
             of my time struggling with UI design.
           </p>
@@ -28,9 +28,10 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="col-md-3 d-flex flex-column">
-          <img src="https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=400" />
-          <nav className="d-inline-flex justify-content-around mt-3">
+        <section className="w-20 flex-column">
+          <img src="https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=400" className="w-100"/>
+
+          <nav className="inline-flex justify-around mt3 w-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
