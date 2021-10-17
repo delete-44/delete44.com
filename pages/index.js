@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import GitHub from "./icons/github";
 import LinkedIn from "./icons/linkedin";
 import Twitter from "./icons/twitter";
@@ -14,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex justify-around items-center min-vh-100 w-80 center">
-        <section className="w-40">
+      <main className="flex flex-row-ns flex-column-reverse justify-around items-center min-vh-100 w-80 center">
+        <section className="w-40-ns w-100">
           <h1 className="mv0 pv0">Hi, I'm Anthony...</h1>
 
           <small className="mt0">He/Him</small>
@@ -32,8 +31,8 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="w-30 flex-column">
-          <img src={`${process.env.gravatarLink}?s=600`} className="w-100" />
+        <section className="w-30-ns w-60 flex-column pt0-ns pt4 mb0-ns mb3">
+          <img src={`${process.env.gravatarLink}?s=600`} className="w-100" alt="A picture of the site author, Anthony" />
 
           <nav className="inline-flex justify-around mt3 w-100">
             <GitHub />

@@ -2,24 +2,8 @@ $primary: black;
 $secondary: #de3403;
 $subtle: #535957;
 
-h1 {
-  font-size: 4em;
-  font-weight: 100;
-  text-decoration: underline;
-  text-decoration-color: $secondary;
-}
-
-small {
-  font-size: 1.5em;
-  font-weight: 300;
-  color: $subtle;
-}
-
-p {
-  font-size: 2em;
-  font-weight: 300;
-}
-
+// Global styles - sets line height, font colour, and selected text behaviour
+// ---------------------------------------------------
 * {
   box-sizing: border-box;
   line-height: 1.6;
@@ -33,7 +17,47 @@ p {
   }
 }
 
+// Small screen defaults
+// ---------------------------------------------------
+
+// Text
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+  text-decoration: underline;
+  text-decoration-color: $secondary;
+}
+
+small {
+  font-size: 1em;
+  font-weight: 300;
+  color: $subtle;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+// Large screen overrides
+// ---------------------------------------------------
+@media screen and (min-width: 30em) {
+  // Text
+  h1 {
+    font-size: 4em;
+  }
+
+  small {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+}
+
 // Default link styles - adds a sliding underline on hover & focus
+// ---------------------------------------------------
 a {
   position: relative;
   text-decoration: none;

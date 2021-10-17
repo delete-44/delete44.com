@@ -4,7 +4,7 @@ export default function LinkedIn() {
   return (
     <a
       href={process.env.githubLink}
-      className="flex-column inline-flex-ns items-center"
+      className="flex-column inline-flex items-center mh0-ns mh2"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
