@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import GitHub from "./icons/github";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
           />
 
           <nav className="inline-flex justify-around mt3 w-100">
-            <Image src="/github.svg" alt="GitHub Logo" width={64} height={64} />
+            <GitHub />
             <Image
               src="/twitter.svg"
               alt="Twitter Logo"
