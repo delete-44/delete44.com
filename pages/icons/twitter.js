@@ -11,7 +11,7 @@ export default function Twitter() {
         width="64"
         height="64"
         fill="currentColor"
-        className="bi bi-twitter"
+        className="bi bi-twitter w-100-ns w-75"
         viewBox="0 0 16 16"
         aria-hidden="true"
         aria-labelledby="twitter_title"

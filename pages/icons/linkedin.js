@@ -11,7 +11,7 @@ export default function LinkedIn() {
         width="64"
         height="64"
         fill="currentColor"
-        className="bi bi-linkedin"
+        className="bi bi-linkedin w-100-ns w-75"
         viewBox="0 0 16 16"
         aria-hidden="true"
         aria-labelledby="linkedin_title"

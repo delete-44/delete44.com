@@ -11,7 +11,7 @@ export default function GitHub() {
         width="64"
         height="64"
         fill="currentColor"
-        className="bi bi-github"
+        className="bi bi-github w-100-ns w-75"
         viewBox="0 0 16 16"
         aria-hidden="true"
         aria-labelledby="github_title"
