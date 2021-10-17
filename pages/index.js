@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import GitHub from "./icons/github";
 import LinkedIn from "./icons/linkedin";
+import Twitter from "./icons/twitter";
 
 export default function Home() {
   return (
@@ -32,19 +33,11 @@ export default function Home() {
         </section>
 
         <section className="w-30 flex-column">
-          <img
-            src={`${process.env.gravatarLink}?s=600`}
-            className="w-100"
-          />
+          <img src={`${process.env.gravatarLink}?s=600`} className="w-100" />
 
           <nav className="inline-flex justify-around mt3 w-100">
             <GitHub />
-            <Image
-              src="/twitter.svg"
-              alt="Twitter Logo"
-              width={64}
-              height={64}
-            />
+            <Twitter />
             <LinkedIn />
           </nav>
         </section>
