@@ -25,13 +25,13 @@ export default function Home() {
           <p>
             I'm learning about accessible design; if you have any advice or spot
             any glaring issues with my work, please reach out and let me know
-            via Twitter.
+            via <a href={process.env.twitterLink}>Twitter</a>.
           </p>
         </section>
 
         <section className="w-30 flex-column">
           <img
-            src="https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=600"
+            src={`${process.env.gravatarLink}?s=600`}
             className="w-100"
           />
 
