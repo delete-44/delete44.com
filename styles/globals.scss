@@ -1,16 +1,18 @@
-$highlight-color: #de3403;
+$primary: black;
+$secondary: #de3403;
+$subtle: #535957;
 
 h1 {
   font-size: 4em;
   font-weight: 100;
   text-decoration: underline;
-  text-decoration-color: $highlight-color;
+  text-decoration-color: $secondary;
 }
 
 small {
   font-size: 1.5em;
   font-weight: 300;
-  color: #535957;
+  color: $subtle;
 }
 
 p {
@@ -26,29 +28,33 @@ p {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   &::selection {
-    background: $highlight-color;
+    background: $secondary;
     color: white;
   }
 }
 
+// Default link styles - adds a sliding underline on hover & focus
 a {
+  position: relative;
   text-decoration: none;
-  transition: color 0.15s ease-in;
-  color: $highlight-color;
-  padding: 0 0.25rem;
+  color: $secondary;
 
-  &:focus {
-    outline: 1px dotted currentColor;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.1em;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background: $primary;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
   }
-  &:hover,
-  &:focus {
-    color: black;
-  }
-  &:link,
-  &:visited,
-  &:hover,
-  &:active,
-  &:focus {
-    transition: color 0.15s ease-in;
+
+  &:focus:after,
+  &:hover:after {
+    width: 100%;
+    left: 0;
   }
 }
