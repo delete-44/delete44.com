@@ -1,5 +1,5 @@
 import Head from "next/head";
-import LandingPage from "../components/views/landing_page";
+import LandingPage from "../components/views/landing";
 
 export default function Home() {
   return (
