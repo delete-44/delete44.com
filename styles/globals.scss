@@ -6,23 +6,25 @@ $underline-size: 2px;
 
 // Global styles - sets line height, font colour, and selected text behaviour
 // ---------------------------------------------------
-* {
+html, body {
+  height: 100vh;
+  overflow: hidden;
   box-sizing: border-box;
   line-height: 1.6;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-  &::selection {
-    background: $secondary;
-    color: white;
-  }
 }
 
 // Small screen defaults
 // ---------------------------------------------------
 
 // Text
+*::selection {
+  background: $secondary;
+  color: white;
+}
+
 h1 {
   font-size: 2em;
   font-weight: 100;
@@ -92,4 +94,15 @@ a {
 // Border colours
 .b--secondary {
   border-color: $secondary;
+}
+
+// Scroll snapping
+.sc-parent {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.sc-child {
+  scroll-snap-align: center;
 }
