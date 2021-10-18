@@ -2,6 +2,8 @@ $primary: black;
 $secondary: #de3403;
 $subtle: #535957;
 
+$underline-size: 2px;
+
 // Global styles - sets line height, font colour, and selected text behaviour
 // ---------------------------------------------------
 * {
@@ -26,6 +28,7 @@ h1 {
   font-weight: 100;
   text-decoration: underline;
   text-decoration-color: $secondary;
+  text-decoration-thickness: $underline-size;
 }
 
 small {
@@ -67,7 +70,7 @@ a {
     content: "";
     position: absolute;
     width: 0;
-    height: 0.1em;
+    height: $underline-size;
     bottom: 0;
     right: 0;
     display: block;
