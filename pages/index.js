@@ -1,9 +1,10 @@
 import Head from "next/head";
-import LandingPage from "../components/views/landing_page";
+import About from "../components/views/about";
+import Landing from "../components/views/landing";
 
 export default function Home() {
   return (
-    <div>
+    <div className="sc-parent">
       <Head>
         <title>Delete44</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,9 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <LandingPage />
+      <Landing />
+      <About />
 
-      <footer>&copy; Anthony | Delete44</footer>
+      <footer className="sc-child">&copy; Anthony | Delete44</footer>
     </div>
   );
 }

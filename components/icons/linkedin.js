@@ -3,7 +3,7 @@ import React from "react";
 export default function LinkedIn() {
   return (
     <a
-      href={process.env.githubLink}
+      href={process.env.linkedinLink}
       className="flex-column inline-flex items-center mh0-ns mh2"
     >
       <svg

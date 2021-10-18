@@ -2,6 +2,8 @@ $primary: black;
 $secondary: #de3403;
 $subtle: #535957;
 
+$underline-size: 2px;
+
 // Global styles - sets line height, font colour, and selected text behaviour
 // ---------------------------------------------------
 * {
@@ -26,6 +28,7 @@ h1 {
   font-weight: 100;
   text-decoration: underline;
   text-decoration-color: $secondary;
+  text-decoration-thickness: $underline-size;
 }
 
 small {
@@ -54,6 +57,24 @@ p {
   p {
     font-size: 2em;
   }
+
+  // Scroll snapping defaults & utility classes
+  // ---------------------------------------------------
+  html,
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .sc-parent {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  .sc-child {
+    scroll-snap-align: center;
+  }
 }
 
 // Default link styles - adds a sliding underline on hover & focus
@@ -67,7 +88,7 @@ a {
     content: "";
     position: absolute;
     width: 0;
-    height: 0.1em;
+    height: $underline-size;
     bottom: 0;
     right: 0;
     display: block;
@@ -81,4 +102,12 @@ a {
     width: 100%;
     left: 0;
   }
+}
+
+// Utility classes
+// ---------------------------------------------------
+
+// Border colours
+.b--secondary {
+  border-color: $secondary;
 }
