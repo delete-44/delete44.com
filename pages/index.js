@@ -15,7 +15,7 @@ export default function Home() {
       <Landing />
       <About />
 
-      <footer>&copy; Anthony | Delete44</footer>
+      <footer className="sc-child">&copy; Anthony | Delete44</footer>
     </div>
   );
 }
