@@ -3,10 +3,10 @@ import GitHub from "../icons/github";
 import LinkedIn from "../icons/linkedin";
 import Twitter from "../icons/twitter";
 
-export default function LandingPage() {
+export default function Landing() {
   return (
-    <main className="flex flex-row-ns flex-column-reverse justify-around items-center min-vh-100 w-80 center">
-      <section className="w-40-ns w-100">
+    <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-60-ns w-90 center bb b--secondary">
+      <section className="w-60-ns w-100">
         <h1 className="mv0 pv0">Hi, I'm Anthony...</h1>
 
         <small className="mt0">He/Him</small>

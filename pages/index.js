@@ -1,5 +1,6 @@
 import Head from "next/head";
-import LandingPage from "../components/views/landing";
+import About from "../components/views/about";
+import Landing from "../components/views/landing";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <LandingPage />
+      <Landing />
+      <About />
 
       <footer>&copy; Anthony | Delete44</footer>
     </div>
