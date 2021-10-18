@@ -5,7 +5,7 @@ import Twitter from "../icons/twitter";
 
 export default function Landing() {
   return (
-    <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-60-ns w-90 center bb b--secondary">
+    <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1 className="mv0 pv0">Hi, I'm Anthony...</h1>
 

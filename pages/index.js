@@ -4,7 +4,7 @@ import Landing from "../components/views/landing";
 
 export default function Home() {
   return (
-    <div>
+    <div className="sc-parent">
       <Head>
         <title>Delete44</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
