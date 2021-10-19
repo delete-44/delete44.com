@@ -4,7 +4,7 @@ export default function StackShare() {
   return (
     <a
       href={process.env.stackshareLink}
-      className="flex-column inline-flex items-center mh0-ns mh2"
+      className="flex inline-flex items-center mh0-ns mh2"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export default function StackShare() {
         />
       </svg>
 
-      <small className="tc pv0 mv0">StackShare</small>
+      <small className="ml2 pv0 mv0">StackShare</small>
     </a>
   );
 }

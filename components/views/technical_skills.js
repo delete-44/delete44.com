@@ -45,9 +45,7 @@ export default function TechnicalSkills() {
           which I have production-calibre industry experience.
         </p>
 
-        <div className="tc w-100">
-          <StackShare />
-        </div>
+        <StackShare />
       </section>
     </section>
   );
