@@ -18,8 +18,7 @@ export default function TechnicalSkills() {
 
           <li>
             <p className="mv0">
-              <strong>React</strong> as a frontend framework to consume this
-              API.
+              <strong>React</strong> as a frontend framework to consume API.
             </p>
           </li>
 
