@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="flex flex-column min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
+    <section className="flex flex-column justify-center min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
       <h1>About me...</h1>
 
       <p className="mt0">

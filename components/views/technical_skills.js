@@ -1,4 +1,5 @@
 import React from "react";
+import StackShare from "../icons/stackshare";
 
 export default function TechnicalSkills() {
   return (
@@ -6,36 +7,48 @@ export default function TechnicalSkills() {
       <section className="w-60-ns w-100">
         <h1>Technical Skills...</h1>
 
-        <p className="mt0">
-          My ideal tech stack for full-stack projects is:
-          <ul>
-            <li>
-              <strong>Ruby on Rails</strong> in API-only mode, with RSpec for
-              testing &amp; CI managed with GitHub actions
-            </li>
-            <li>
-              <strong>React</strong> as a frontend framework to consume this API
-            </li>
-            <li>
-              <strong>Flutter</strong> for mobile apps when needed, although I
-              really ought to investigate React Native...
-            </li>
-          </ul>
-        </p>
+        <p className="mt0">My ideal tech stack for full-stack projects is:</p>
+
+        <ul>
+          <li>
+            <p className="mv0">
+              <strong>Ruby on Rails</strong> in API-only mode.
+            </p>
+          </li>
+
+          <li>
+            <p className="mv0">
+              <strong>React</strong> as a frontend framework to consume this
+              API.
+            </p>
+          </li>
+
+          <li>
+            <p className="mv0">
+              <strong>Flutter</strong> for mobile apps when needed.
+            </p>
+          </li>
+
+          <li>
+            <p className="mv0">
+              <strong>GitHub Actions</strong> &amp; <strong>Heroku</strong> to
+              manage CI/CD pipelines &amp; hosting.
+            </p>
+          </li>
+        </ul>
       </section>
 
-      {/* TODO: Stackshare logo */}
-      <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
-        <h2>Stackshare</h2>
-        <p>
-          For more information, I've put together a StackShare to showcase my
-          preferred technologies:
+      <section className="w-35-ns w-100 flex-column pt0 mb0-ns mb3">
+        <h2 className="mb0">StackShare</h2>
+
+        <p className="mt0 mb3">
+          I've put together a StackShare of my preferred technologies, with
+          which I have production-calibre industry experience.
         </p>
-        <img
-          src={`${process.env.gravatarLink}?s=600`}
-          className="w-100"
-          alt="A picture of the site author, Anthony"
-        />
+
+        <div className="tc w-100">
+          <StackShare />
+        </div>
       </section>
     </section>
   );
