@@ -5,7 +5,7 @@ export default function About() {
     <section className="flex flex-column min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
       <h1>About me...</h1>
 
-      <p className="mt3">
+      <p className="mt0">
         At a fundamental level, I am passionate about code quality and
         maintainability; having worked on projects that lack this, I understand
         the value of <strong>clear</strong>, <strong>well-organised</strong>{" "}

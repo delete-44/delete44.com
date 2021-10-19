@@ -23,7 +23,7 @@ export default function Landing() {
         </p>
       </section>
 
-      <section className="w-30-ns w-60 flex-column pt0-ns pt4 mb0-ns mb3">
+      <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
         <img
           src={`${process.env.gravatarLink}?s=600`}
           className="w-100"
