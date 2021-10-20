@@ -5,7 +5,7 @@ import Twitter from "../icons/twitter";
 
 export default function Landing() {
   return (
-    <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
+    <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1 className="mv0 pv0">Hi, I'm Anthony...</h1>
 
@@ -23,7 +23,7 @@ export default function Landing() {
         </p>
       </section>
 
-      <section className="w-30-ns w-60 flex-column pt0-ns pt4 mb0-ns mb3">
+      <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
         <img
           src={`${process.env.gravatarLink}?s=600`}
           className="w-100"

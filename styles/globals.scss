@@ -1,5 +1,5 @@
 $primary: black;
-$secondary: #de3403;
+$secondary: #358730;
 $subtle: #535957;
 
 $underline-size: 2px;
@@ -31,6 +31,14 @@ h1 {
   text-decoration-thickness: $underline-size;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-decoration: underline;
+  text-decoration-color: $secondary;
+  text-decoration-thickness: $underline-size;
+}
+
 small {
   font-size: 1em;
   font-weight: 300;
@@ -48,6 +56,12 @@ p {
   // Text
   h1 {
     font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 2.5em;
   }
 
   small {
@@ -55,7 +69,7 @@ p {
   }
 
   p {
-    font-size: 2em;
+    font-size: 1.85em;
   }
 
   // Scroll snapping defaults & utility classes

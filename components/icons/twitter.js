@@ -10,7 +10,7 @@ export default function Twitter() {
         xmlns="http://www.w3.org/2000/svg"
         width="64"
         height="64"
-        fill="currentColor"
+        fill="#1da1f2"
         className="bi bi-twitter w-100-ns w-75"
         viewBox="0 0 16 16"
         aria-hidden="true"
