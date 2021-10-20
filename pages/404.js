@@ -8,7 +8,7 @@ export default function Custom404() {
         <html lang="en-GB" />
       </Head>
 
-      <Error statusCode={404} />
+      <Error statusCode={404} title="Page not found" />
     </div>
   );
 }
