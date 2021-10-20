@@ -1,7 +1,7 @@
 import Head from "next/head";
-import About from "../components/views/about";
-import Landing from "../components/views/landing";
-import TechnicalSkills from "../components/views/technical_skills";
+import About from "@views/about";
+import Landing from "@views/landing";
+import TechnicalSkills from "@views/technical_skills";
 
 export default function Home() {
   return (

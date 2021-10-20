@@ -1,5 +1,5 @@
 import React from "react";
-import StackShare from "../icons/stackshare";
+import StackShare from "@icons/stackshare";
 
 export default function TechnicalSkills() {
   return (
