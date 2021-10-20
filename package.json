@@ -19,6 +19,7 @@
     "eslint": "8.0.1",
     "eslint-config-next": "11.1.2",
     "gray-matter": "^4.0.3",
+    "marked": "^3.0.7",
     "raw-loader": "^4.0.2"
   }
 }
