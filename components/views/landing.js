@@ -1,7 +1,7 @@
 import React from "react";
-import GitHub from "../icons/github";
-import LinkedIn from "../icons/linkedin";
-import Twitter from "../icons/twitter";
+import GitHub from "@icons/github";
+import LinkedIn from "@icons/linkedin";
+import Twitter from "@icons/twitter";
 
 export default function Landing() {
   return (
