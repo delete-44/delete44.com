@@ -3,7 +3,7 @@ import StackShare from "../icons/stackshare";
 
 export default function TechnicalSkills() {
   return (
-    <section className="flex flex-row-ns flex-column justify-between items-center min-vh-100 w-60-ns w-90 center bb b--secondary sc-child">
+    <section className="flex flex-row-ns flex-column justify-between items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1>Technical Skills...</h1>
 
@@ -37,7 +37,7 @@ export default function TechnicalSkills() {
         </ul>
       </section>
 
-      <section className="w-35-ns w-100 flex-column pt0 mb0-ns mb3">
+      <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">
         <h2 className="mb0">StackShare</h2>
 
         <p className="mt0 mb3">
