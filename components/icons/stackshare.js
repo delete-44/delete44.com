@@ -17,6 +17,7 @@ export default function StackShare(props) {
         aria-hidden="true"
         aria-labelledby="stackshare_title"
         role="img"
+        className="w-100-ns w-75"
       >
         <title id="stackshare_title">StackShare Logo</title>
         <path
