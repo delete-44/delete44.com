@@ -24,6 +24,24 @@ export async function getPosts() {
   return posts;
 }
 
+export async function getSeriesPosts() {
+  const context = require.context("_posts/rails-with-vue", false);
+  const posts = [];
+
+  console.log("CC", context);
+  for (const key of context.keys()) {
+    const post = key.slice(2);
+    const content = await import(`_posts/rails-with-vue/${post}`);
+    const meta = matter(content.default);
+
+    posts.push({
+      slug: `rails-with-vue/${post.replace(".md", "")}`,
+      title: meta.data.title,
+    });
+  }
+  return posts;
+}
+
 // For a given slug, this function will locate the file in the
 // _posts directory, parse the Markdown with the marked library
 // and return the output HTML with metadata.

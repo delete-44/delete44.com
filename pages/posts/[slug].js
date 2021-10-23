@@ -5,6 +5,7 @@ import { getPostBySlug, getPosts } from "@api";
 export default function Post(props) {
   return (
     <main>
+      {console.log(props)}
       <Head>
         <title>{props.title}</title>
         <meta name="description" content={props.description} />

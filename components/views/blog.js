@@ -7,6 +7,7 @@ export default function Blog(props) {
       <section className="w-60-ns w-100">
         <h1 id="blog">Blog...</h1>
 
+        {console.log(props)}
         <p className="mt0">I have a few posts:</p>
 
         <ul>
@@ -26,6 +27,18 @@ export default function Blog(props) {
         <h2 className="mb0">Series</h2>
 
         <p className="mt0 mb3">Here is a series of posts on other things...</p>
+
+        <ul>
+          {props.seriesPosts.map((post, idx) => {
+            return (
+              <li key={idx}>
+                <Link href={"/posts/" + post.slug}>
+                  <a>{post.title}</a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
     </section>
   );

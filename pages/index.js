@@ -3,7 +3,7 @@ import About from "@views/about";
 import Landing from "@views/landing";
 import TechnicalSkills from "@views/technical_skills";
 import Blog from "@views/blog";
-import { getPosts } from "@api";
+import { getPosts, getSeriesPosts } from "@api";
 
 export default function Home(props) {
   return (
@@ -19,7 +19,7 @@ export default function Home(props) {
       <Landing />
       <About />
       <TechnicalSkills />
-      <Blog posts={props.posts} />
+      <Blog posts={props.posts} seriesPosts={props.seriesPosts} />
 
       <footer className="sc-child">&copy; Anthony | Delete44</footer>
     </div>
@@ -27,11 +27,13 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-  const allPosts = await getPosts();
+  const posts = await getPosts();
+  const seriesPosts = await getSeriesPosts();
 
   return {
     props: {
-      posts: allPosts,
+      posts: posts,
+      seriesPosts: seriesPosts,
     },
   };
 }
