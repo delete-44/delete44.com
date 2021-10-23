@@ -25,7 +25,7 @@ export default function Home() {
       <TechnicalSkills />
       <Blog />
 
-      <footer className="sc-child mt3 flex flex-column flex-row-ns justify-between items-center w-70-ns w-90 center">
+      <footer className="sc-child mv3 flex flex-column flex-row-ns justify-between items-center w-70-ns w-90 center">
         <small>&copy; Anthony | Delete44</small>
 
         <nav className="flex inline-flex-ns flex-wrap justify-center justify-between-ns w-40-ns w-90">
