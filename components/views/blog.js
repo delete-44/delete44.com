@@ -1,4 +1,5 @@
 import React from "react";
+import WriteAs from "@icons/writeas"
 
 export default function Blog() {
   return (
@@ -20,12 +21,14 @@ export default function Blog() {
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">
-        <h2 className="mb0">write.as</h2>
+        <h2 className="mb0">Write.as</h2>
 
         <p className="mt0 mb3">
-          I use write.as to host these articles. Visit my blog there to read
+          I use Write.as to host these articles. Visit my blog there to read
           them:
         </p>
+
+        <WriteAs />
       </section>
     </section>
   );
