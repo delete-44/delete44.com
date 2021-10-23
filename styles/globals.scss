@@ -1,5 +1,6 @@
-$primary: black;
-$secondary: #358730;
+$light: #ffffff;
+$dark: #000000;
+$highlight: #358730;
 $subtle: #535957;
 
 $underline-size: 2px;
@@ -14,7 +15,7 @@ $underline-size: 2px;
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   &::selection {
-    background: $secondary;
+    background: $highlight;
     color: white;
   }
 }
@@ -27,7 +28,7 @@ h1 {
   font-size: 2em;
   font-weight: 100;
   text-decoration: underline;
-  text-decoration-color: $secondary;
+  text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
 }
 
@@ -35,7 +36,7 @@ h2 {
   font-size: 1.5em;
   font-weight: 100;
   text-decoration: underline;
-  text-decoration-color: $secondary;
+  text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
 }
 
@@ -48,6 +49,11 @@ small {
 p {
   font-size: 1.25em;
   font-weight: 300;
+}
+
+footer {
+  background-color: $highlight;
+  color: $light;
 }
 
 // Large screen overrides
@@ -96,7 +102,7 @@ p {
 a {
   position: relative;
   text-decoration: none;
-  color: $secondary;
+  color: $highlight;
 
   &:after {
     content: "";
@@ -106,7 +112,7 @@ a {
     bottom: 0;
     right: 0;
     display: block;
-    background: $primary;
+    background: $dark;
     transition: width 0.3s ease;
     -webkit-transition: width 0.3s ease;
   }
@@ -123,5 +129,5 @@ a {
 
 // Border colours
 .b--secondary {
-  border-color: $secondary;
+  border-color: $highlight;
 }

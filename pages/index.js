@@ -20,7 +20,7 @@ export default function Home() {
       <TechnicalSkills />
       <Blog />
 
-      <footer className="sc-child">&copy; Anthony | Delete44</footer>
+      <footer className="sc-child h4">&copy; Anthony | Delete44</footer>
     </div>
   );
 }
