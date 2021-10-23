@@ -1,10 +1,12 @@
 import React from "react";
+import IconLayout from "@layouts/icon_layout";
 
-export default function StackShare() {
+export default function StackShare(props) {
   return (
-    <a
-      href={process.env.stackshareLink}
-      className="flex inline-flex items-center mh0-ns mh2 pb1"
+    <IconLayout
+      link={process.env.stackshareLink}
+      title="StackShare"
+      vertical={props.vertical}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +28,6 @@ export default function StackShare() {
           fill="#FFF"
         />
       </svg>
-
-      <small className="ml2 pv0 mv0">StackShare</small>
-    </a>
+    </IconLayout>
   );
 }

@@ -1,10 +1,12 @@
 import React from "react";
+import IconLayout from "@layouts/icon_layout";
 
-export default function WriteAs() {
+export default function WriteAs(props) {
   return (
-    <a
-      href={process.env.writeAsLink}
-      className="flex inline-flex items-center mh0-ns mh2 pb1"
+    <IconLayout
+      link={process.env.writeAsLink}
+      title="Write.as"
+      vertical={props.vertical}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +33,6 @@ export default function WriteAs() {
           </g>
         </g>
       </svg>
-
-      <small className="ml2 pv0 mv0">Write.as</small>
-    </a>
+    </IconLayout>
   );
 }
