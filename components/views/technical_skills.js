@@ -41,8 +41,8 @@ export default function TechnicalSkills() {
         <h2 className="mb0">StackShare</h2>
 
         <p className="mt0 mb3">
-          I've put together a StackShare of my preferred technologies, with
-          which I have production-calibre industry experience.
+          I've put together a StackShare of my preferred technologies. Each of
+          these I have used in industry environments.
         </p>
 
         <StackShare />
