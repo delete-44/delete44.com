@@ -2,10 +2,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@includes/*": ["_includes/*"],
-      "@layouts/*": ["_layouts/*"],
-      "@posts/*": ["_posts/*"],
-      "@api": ["api/index"],
       "@icons/*": ["components/icons/*"],
       "@views/*": ["components/views/*"],
     }
