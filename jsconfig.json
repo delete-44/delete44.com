@@ -4,6 +4,7 @@
     "paths": {
       "@icons/*": ["components/icons/*"],
       "@views/*": ["components/views/*"],
+      "@layouts/*": ["layouts/*"],
     }
   }
 }
