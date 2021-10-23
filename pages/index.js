@@ -1,7 +1,8 @@
 import Head from "next/head";
-import About from "../components/views/about";
-import Landing from "../components/views/landing";
-import TechnicalSkills from "../components/views/technical_skills";
+import About from "@views/about";
+import Landing from "@views/landing";
+import TechnicalSkills from "@views/technical_skills";
+import Blog from "@views/blog";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Landing />
       <About />
       <TechnicalSkills />
+      <Blog />
 
       <footer className="sc-child">&copy; Anthony | Delete44</footer>
     </div>
