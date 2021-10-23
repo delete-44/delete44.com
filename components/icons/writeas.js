@@ -16,6 +16,7 @@ export default function WriteAs(props) {
         aria-hidden="true"
         aria-labelledby="writeas_title"
         role="img"
+        className="w-100-ns w-75"
       >
         <title id="writeas_title">Write.as Logo</title>
         <g transform="matrix(1.25 0 0 -1.25 -576.83 190.04)">
