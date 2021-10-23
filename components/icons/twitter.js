@@ -3,7 +3,7 @@ import IconLayout from "@layouts/icon_layout";
 
 export default function Twitter() {
   return (
-    <IconLayout link={process.env.twitterLink} title="Twitter" vertica>
+    <IconLayout link={process.env.twitterLink} title="Twitter" vertical>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="64"
