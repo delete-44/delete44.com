@@ -143,8 +143,12 @@ a {
   }
 
   // Icons
-  .highlight--dark {
-    fill: $highlight;
+  .lighten--dark {
+    fill: $light;
+  }
+
+  .darken--dark {
+    fill: $dark;
   }
 
   // Links
