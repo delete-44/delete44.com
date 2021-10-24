@@ -9,7 +9,7 @@ export default function TechnicalSkills() {
 
         <p className="mt0">My ideal tech stack for full-stack projects is:</p>
 
-        <ul>
+        <ul className="list pl3">
           <li>
             <p className="mv0">
               <strong>Ruby on Rails</strong> in API-only mode.

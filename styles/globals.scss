@@ -1,7 +1,9 @@
 $light: #ffffff;
-$dark: #000000;
+$dark: #161616;
 $highlight: #358730;
+
 $subtle: #535957;
+$subtle-light: #a3a3a3;
 
 $underline-size: 2px;
 
@@ -30,6 +32,7 @@ h1 {
   text-decoration: underline;
   text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
+  color: $dark;
 }
 
 h2 {
@@ -38,6 +41,7 @@ h2 {
   text-decoration: underline;
   text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
+  color: $dark;
 }
 
 small {
@@ -49,6 +53,34 @@ small {
 p {
   font-size: 1.25em;
   font-weight: 300;
+  color: $dark;
+}
+
+// Links - adds a sliding underline on hover & focus
+// ---------------------------------------------------
+a {
+  position: relative;
+  text-decoration: none;
+  color: $highlight;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: $underline-size;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background: $dark;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+  }
+
+  &:focus:after,
+  &:hover:after {
+    width: 100%;
+    left: 0;
+  }
 }
 
 // Large screen overrides
@@ -92,30 +124,36 @@ p {
   }
 }
 
-// Default link styles - adds a sliding underline on hover & focus
+// Dark theme overrides
 // ---------------------------------------------------
-a {
-  position: relative;
-  text-decoration: none;
-  color: $highlight;
-
-  &:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: $underline-size;
-    bottom: 0;
-    right: 0;
-    display: block;
-    background: $dark;
-    transition: width 0.3s ease;
-    -webkit-transition: width 0.3s ease;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $dark;
   }
 
-  &:focus:after,
-  &:hover:after {
-    width: 100%;
-    left: 0;
+  // Text
+  h1,
+  h2,
+  p {
+    color: $light;
+  }
+
+  small {
+    color: $subtle-light;
+  }
+
+  // Icons
+  .lighten--dark {
+    fill: $light;
+  }
+
+  .darken--dark {
+    fill: $dark;
+  }
+
+  // Links
+  a:after {
+    background: $light;
   }
 }
 
