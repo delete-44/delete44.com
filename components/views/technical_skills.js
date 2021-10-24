@@ -35,6 +35,11 @@ export default function TechnicalSkills() {
             </p>
           </li>
         </ul>
+
+        <p>
+          This is the tech stack I used for my dissertation, "
+          <a href="https://github.com/delete-44-COMP3000">Scription</a>".
+        </p>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">
