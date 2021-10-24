@@ -56,6 +56,33 @@ p {
   color: $dark;
 }
 
+// Links - adds a sliding underline on hover & focus
+// ---------------------------------------------------
+a {
+  position: relative;
+  text-decoration: none;
+  color: $highlight;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: $underline-size;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background: $dark;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+  }
+
+  &:focus:after,
+  &:hover:after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 // Large screen overrides
 // ---------------------------------------------------
 @media screen and (min-width: 30em) {
@@ -114,32 +141,15 @@ p {
   small {
     color: $subtle-light;
   }
-}
 
-// Default link styles - adds a sliding underline on hover & focus
-// ---------------------------------------------------
-a {
-  position: relative;
-  text-decoration: none;
-  color: $highlight;
-
-  &:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: $underline-size;
-    bottom: 0;
-    right: 0;
-    display: block;
-    background: $dark;
-    transition: width 0.3s ease;
-    -webkit-transition: width 0.3s ease;
+  // Icons
+  .highlight--dark {
+    fill: $highlight;
   }
 
-  &:focus:after,
-  &:hover:after {
-    width: 100%;
-    left: 0;
+  // Links
+  a:after {
+    background: $light;
   }
 }
 
