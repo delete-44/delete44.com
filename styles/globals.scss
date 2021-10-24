@@ -1,7 +1,9 @@
 $light: #ffffff;
-$dark: #000000;
+$dark: #161616;
 $highlight: #358730;
+
 $subtle: #535957;
+$subtle-light: #a3a3a3;
 
 $underline-size: 2px;
 
@@ -30,6 +32,7 @@ h1 {
   text-decoration: underline;
   text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
+  color: $dark;
 }
 
 h2 {
@@ -38,6 +41,7 @@ h2 {
   text-decoration: underline;
   text-decoration-color: $highlight;
   text-decoration-thickness: $underline-size;
+  color: $dark;
 }
 
 small {
@@ -49,6 +53,7 @@ small {
 p {
   font-size: 1.25em;
   font-weight: 300;
+  color: $dark;
 }
 
 // Large screen overrides
@@ -89,6 +94,25 @@ p {
 
   .sc-child {
     scroll-snap-align: center;
+  }
+}
+
+// Dark theme overrides
+// ---------------------------------------------------
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $dark;
+  }
+
+  // Text
+  h1,
+  h2,
+  p {
+    color: $light;
+  }
+
+  small {
+    color: $subtle-light;
   }
 }
 
