@@ -1,6 +1,9 @@
 import React from "react";
 import IconLayout from "@layouts/icon_layout";
 
+// Renders an SVG icon with a text label & a link to the resource.
+// Accepts "vertical" prop that dictates position of the text label,
+// and a "footerLink" prop that changes the aria id when rendering in footer
 export default function Twitter(props) {
   return (
     <IconLayout
