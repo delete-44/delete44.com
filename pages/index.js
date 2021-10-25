@@ -30,11 +30,11 @@ export default function Home() {
         <small>&copy; Anthony | Delete44</small>
 
         <nav className="flex inline-flex-ns flex-wrap justify-center justify-between-ns w-40-ns w-90">
-          <GitHub vertical footerLink />
-          <LinkedIn vertical footerLink />
-          <Twitter vertical footerLink />
-          <StackShare vertical footerLink />
-          <WriteAs vertical footerLink />
+          <GitHub footerLink />
+          <LinkedIn footerLink />
+          <Twitter footerLink />
+          <StackShare footerLink />
+          <WriteAs footerLink />
         </nav>
       </footer>
     </div>

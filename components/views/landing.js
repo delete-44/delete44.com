@@ -33,9 +33,9 @@ export default function Landing() {
         />
 
         <nav className="inline-flex justify-around mt3 w-100">
-          <GitHub vertical />
-          <Twitter vertical />
-          <LinkedIn vertical />
+          <GitHub />
+          <Twitter />
+          <LinkedIn />
         </nav>
       </section>
     </main>
