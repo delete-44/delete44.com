@@ -8,15 +8,15 @@ export default function About() {
       <p className="mt0">
         At a fundamental level, I am passionate about code quality and
         maintainability; having worked on projects that lack this, I understand
-        the value of <strong>clear</strong>, <strong>well-organised</strong>{" "}
-        code that is easily transferable to new developers.
+        the value of <strong>simple</strong>, <strong>well-organised</strong>{" "}
+        code.
       </p>
 
       <p>
-        From a design perspective, I care about user experiences that are
-        effective and accessible. It is <strong>vital</strong> that applications
-        are usable by people with different needs, but this does not mean
-        compromises need to be made on aesthetics.
+        From a design perspective, I care about effective &amp; accessible user
+        experiences. It is <strong>vital</strong> that applications are usable
+        by people with different needs, but this does not require sacrificing
+        aesthetics.
       </p>
 
       <p>
