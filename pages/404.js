@@ -4,7 +4,6 @@ export default function Custom404() {
   return (
     <>
       <Head>
-        <html lang="en-GB" />
         <title>404: Page not found</title>
       </Head>
 
