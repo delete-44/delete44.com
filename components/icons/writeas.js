@@ -6,7 +6,7 @@ export default function WriteAs(props) {
     <IconLayout
       link={process.env.writeAsLink}
       title="Write.as"
-      vertical={props.vertical}
+      horizontal={props.horizontal}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

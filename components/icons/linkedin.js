@@ -6,7 +6,7 @@ export default function LinkedIn(props) {
     <IconLayout
       link={process.env.linkedinLink}
       title="LinkedIn"
-      vertical={props.vertical}
+      horizontal={props.horizontal}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

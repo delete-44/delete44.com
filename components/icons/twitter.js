@@ -6,7 +6,7 @@ export default function Twitter(props) {
     <IconLayout
       link={process.env.twitterLink}
       title="Twitter"
-      vertical={props.vertical}
+      horizontal={props.horizontal}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
