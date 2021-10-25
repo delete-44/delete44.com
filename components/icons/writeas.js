@@ -14,12 +14,14 @@ export default function WriteAs(props) {
         width="64"
         viewBox="0 0 87.000001 86.999986"
         aria-hidden="true"
-        aria-labelledby="writeas_title"
+        aria-labelledby={`writeas_${
+          props.footerLink ? "footer_link" : "title"
+        }`}
         role="img"
         className="w-100-ns w-75"
       >
-        <title id="writeas_title">
-          Write.as {props.footerLink ? "Footer Link" : "Logo"}
+        <title id={`writeas_${props.footerLink ? "footer_link" : "title"}`}>
+          Write.as Logo
         </title>
         <g transform="matrix(1.25 0 0 -1.25 -576.83 190.04)">
           <g transform="translate(501.2 129.78)">
