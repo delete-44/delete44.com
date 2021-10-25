@@ -18,7 +18,9 @@ export default function WriteAs(props) {
         role="img"
         className="w-100-ns w-75"
       >
-        <title id="writeas_title">Write.as Logo</title>
+        <title id="writeas_title">
+          Write.as {props.footerLink ? "Footer Link" : "Logo"}
+        </title>
         <g transform="matrix(1.25 0 0 -1.25 -576.83 190.04)">
           <g transform="translate(501.2 129.78)">
             <path
