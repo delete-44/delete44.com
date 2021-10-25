@@ -14,13 +14,13 @@ class MyDocument extends Document {
       <Html lang="en-GB">
         <Head />
 
-        <NextSeo
-          title="delete44"
-          description="Personal site of software developer delete44"
-          canonical="https://www.delete44.com"
-        />
-
         <body>
+          <NextSeo
+            title="delete44"
+            description="Personal site of software developer delete44"
+            canonical="https://www.delete44.com"
+          />
+
           <Main />
           <NextScript />
         </body>
