@@ -50,7 +50,7 @@ export default function TechnicalSkills() {
           these I have used in industry environments.
         </p>
 
-        <StackShare />
+        <StackShare horizontal />
       </section>
     </section>
   );

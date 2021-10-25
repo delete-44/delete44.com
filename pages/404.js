@@ -1,10 +1,10 @@
 import Head from "next/head";
 
+// Overrides default 404 page to provide light/dark-theme appropriate styling
 export default function Custom404() {
   return (
     <>
       <Head>
-        <html lang="en-GB" />
         <title>404: Page not found</title>
       </Head>
 
