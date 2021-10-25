@@ -3,7 +3,7 @@ import StackShare from "@icons/stackshare";
 
 export default function TechnicalSkills() {
   return (
-    <section className="flex flex-row-ns flex-column justify-between items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
+    <section className="flex flex-row-ns flex-column justify-between-ns justify-around items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1 id="technical_skills">Technical Skills...</h1>
 
@@ -31,23 +31,26 @@ export default function TechnicalSkills() {
           <li>
             <p className="mv0">
               <strong>GitHub Actions</strong> &amp; <strong>Heroku</strong> to
-              manage CI/CD pipelines &amp; hosting.
+              manage CI/CD pipelines.
             </p>
           </li>
         </ul>
 
-        <p>
-          This is the tech stack I used for my dissertation, "
-          <a href="https://github.com/delete-44-COMP3000">Scription</a>".
-        </p>
+        <small>
+          I used this stack for my dissertation, Scription - codebase
+          on <a href="https://github.com/delete-44-COMP3000">GitHub</a>.
+        </small>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">
         <h2 className="mb0">StackShare</h2>
 
-        <p className="mt0 mb3">
-          I've put together a StackShare of my preferred technologies. Each of
-          these I have used in industry environments.
+        <p className="mt0">
+          I've put together a StackShare of my preferred technologies.
+        </p>
+
+        <p>
+          I have experience with each in industry environments.
         </p>
 
         <StackShare horizontal />
