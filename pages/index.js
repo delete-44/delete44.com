@@ -9,6 +9,8 @@ import StackShare from "@icons/stackshare";
 import Twitter from "@icons/twitter";
 import WriteAs from "@icons/writeas";
 
+// Layout for the landing page - overrides "Head" attributes such as title & SEO tags,
+// then writes each section in order & renders the footer
 export default function Home() {
   return (
     <div className="sc-parent">

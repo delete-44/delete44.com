@@ -1,5 +1,7 @@
 import React from "react";
 
+// Wrapper for rendering icons; accepts a "vertical" prop that
+// dictates where link text is positioned
 export default function IconLayout(props) {
   return (
     <a
