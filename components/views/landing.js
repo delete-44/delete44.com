@@ -13,16 +13,18 @@ export default function Landing() {
 
         <small className="mt0">He/Him</small>
 
-        <p className="mt4">
+        <p>
           I'm a software developer &amp; music nerd, <strong>constantly</strong>{" "}
           struggling with UI design.
         </p>
 
         <p>
-          I'm learning about accessible design; if you have any advice or spot
-          any glaring issues with my work, please reach out and let me know via{" "}
+          I'm currently learning about accessible design; if you have any advice
+          or spot any issues with my work, please reach out and let me know via{" "}
           <a href={process.env.twitterLink}>Twitter</a>.
         </p>
+
+        <small>The code for this site is available on it's <a href={process.env.githubRepoLink}>GitHub repo</a>.</small>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">

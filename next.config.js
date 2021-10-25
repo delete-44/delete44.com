@@ -13,5 +13,6 @@ module.exports = {
       "https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb",
     stackshareLink: "https://stackshare.io/delete-44/tools",
     writeAsLink: "https://write.as/delete44/",
+    githubRepoLink: "https://github.com/delete-44/delete44.com",
   },
 };
