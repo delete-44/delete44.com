@@ -1,6 +1,8 @@
 $light: #ffffff;
 $dark: #161616;
+
 $highlight: #358730;
+$highlight-light: #4abc43;
 
 $subtle: #535957;
 $subtle-light: #a3a3a3;
@@ -136,6 +138,7 @@ a {
   h2,
   p {
     color: $light;
+    text-decoration-color: $highlight-light;
   }
 
   small {
@@ -154,6 +157,7 @@ a {
   // Links
   a:after {
     background: $light;
+    color: $highlight-light;
   }
 }
 
