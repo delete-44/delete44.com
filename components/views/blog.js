@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <section className="flex flex-row-ns flex-column justify-between-ns justify-around items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
-        <h1 id="articles">Blog...</h1>
+        <h1 id="blog">Blog...</h1>
 
         <p className="mt0">
           I've written a few articles to help others with issues that I

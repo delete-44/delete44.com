@@ -5,7 +5,7 @@ export default function TechnicalSkills() {
   return (
     <section className="flex flex-row-ns flex-column justify-between-ns justify-around items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
-        <h1 id="technical-skills">Technical Skills...</h1>
+        <h1 id="technical_skills">Technical Skills...</h1>
 
         <p className="mt0">My ideal tech stack for full-stack projects is:</p>
 
