@@ -8,19 +8,12 @@ import LinkedIn from "@icons/linkedin";
 import StackShare from "@icons/stackshare";
 import Twitter from "@icons/twitter";
 import WriteAs from "@icons/writeas";
-import { NextSeo } from "next-seo";
 
 // Layout for the landing page - overrides "Head" attributes such as title & SEO tags,
 // then writes each section in order & renders the footer
 export default function Home() {
   return (
     <div className="sc-parent">
-      <NextSeo
-        title="delete44"
-        description="Personal site of software developer delete44"
-        canonical="https://www.delete44.com"
-      />
-
       <Head>
         <link rel="icon" href={`${process.env.gravatarLink}?s=16`} />
       </Head>
