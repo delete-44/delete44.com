@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Delete44 Website
 
-## Getting Started
+This is a personal site - you can view it at [delete44.com](https://www.delete44.com).
 
-First, run the development server:
+It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Local Development
+
+To run the development server, use
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ npm run dev
+ > ...
+ > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+ > info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+ > event - compiled successfully
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then you can visit [localhost:3000](localhost:3000) to view the development server. This will hot reload to reflect changes you make.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## SEO
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Default SEO for the site is established in `next-seo.config.js` - this is imported into `pages/_app.js`. Any tags included here can be overwritten on individual pages as needed.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Styling
 
-## Learn More
+This app is designed to be "mobile-first" and "light-theme-first"; ie the default styles for the site are designed to fit a mobile device with light theme. These are then overwritten in `styles/globals.scss` should the user be using a large screen or prefer dark themes.
 
-To learn more about Next.js, take a look at the following resources:
+Outside of the custom scss in `styles/globals.scss`, styling is completed using [Tachyons](https://tachyons.io/). This generates a huge amount of CSS micro-classes, and can be quite overwhelming if you're coming in blind. A helper website called [Tachyons TLDR](https://tachyons-tldr.vercel.app) is useful for finding the required syntax.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Accessibility
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Accessibility is a **fundamental** consideration when working on this website. Any changes **must** be made in accordance with [AA WCAG2.1](https://www.w3.org/TR/WCAG21/) at the bare minimum.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app is hosted via [Netlify](https://www.netlify.com/), which runs helpful checks for dead links etc prior to deployment. It also spins up temporary instances for each pull request, which can be used to test changes in a live environment.
