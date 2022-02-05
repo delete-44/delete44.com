@@ -8,23 +8,26 @@ export default function Landing() {
     <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1 className="mv0 pv0" id="home">
-          Hi, I'm Anthony...
+          Hi, I&apos;m Anthony...
         </h1>
 
         <small className="mt0">He/Him</small>
 
         <p>
-          I'm a software developer &amp; music nerd, <strong>constantly</strong>{" "}
-          struggling with UI design.
+          I&apos;m a software developer &amp; music nerd,{" "}
+          <strong>constantly</strong> struggling with UI design.
         </p>
 
         <p>
-          I'm currently learning about accessible design; if you have any advice
-          or spot any issues with my work, please reach out and let me know via{" "}
-          <a href={process.env.twitterLink}>Twitter</a>.
+          I&apos;m currently learning about accessible design; if you have any
+          advice or spot any issues with my work, please reach out and let me
+          know via <a href={process.env.twitterLink}>Twitter</a>.
         </p>
 
-        <small>The code for this site is available on it's <a href={process.env.githubRepoLink}>GitHub repo</a>.</small>
+        <small>
+          The code for this site is available on it&apos;s{" "}
+          <a href={process.env.githubRepoLink}>GitHub repo</a>.
+        </small>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">

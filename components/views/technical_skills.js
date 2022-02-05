@@ -37,8 +37,8 @@ export default function TechnicalSkills() {
         </ul>
 
         <small>
-          I used this stack for my dissertation, Scription - codebase
-          on <a href="https://github.com/delete-44-COMP3000">GitHub</a>.
+          I used this stack for my dissertation, Scription - codebase on{" "}
+          <a href="https://github.com/delete-44-COMP3000">GitHub</a>.
         </small>
       </section>
 
@@ -46,12 +46,10 @@ export default function TechnicalSkills() {
         <h2 className="mb0">StackShare</h2>
 
         <p className="mt0">
-          I've put together a StackShare of my preferred technologies.
+          I&apos;ve put together a StackShare of my preferred technologies.
         </p>
 
-        <p>
-          I have experience with each in industry environments.
-        </p>
+        <p>I have experience with each in industry environments.</p>
 
         <StackShare horizontal />
       </section>

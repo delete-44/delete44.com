@@ -8,7 +8,7 @@ export default function Blog() {
         <h1 id="blog">Blog...</h1>
 
         <p className="mt0">
-          I've written a few articles to help others with issues that I
+          I&apos;ve written a few articles to help others with issues that I
           struggled with, or provide support where I felt it was lacking.
         </p>
 
