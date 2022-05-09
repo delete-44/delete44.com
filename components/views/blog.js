@@ -11,12 +11,6 @@ export default function Blog() {
           I&apos;ve written a few articles to help others with issues that I
           struggled with, or provide support where I felt it was lacking.
         </p>
-
-        <p>
-          The posts focus on integrating Ruby on Rails with other technologies,
-          such as Vue &amp; Docker. They have fallen out of date, so exist as an
-          archive in case they are useful.
-        </p>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">
