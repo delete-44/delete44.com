@@ -8,8 +8,8 @@ export default function About() {
       <p className="mt0">
         At a fundamental level, I am passionate about code quality and
         maintainability; having worked on projects that lack this, I understand
-        the value of <strong>simple</strong>, <strong>well-organised</strong>{" "}
-        code.
+        the value of <strong>minimal</strong> &amp;{" "}
+        <strong>well-organised</strong> code.
       </p>
 
       <p>
