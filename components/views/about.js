@@ -15,8 +15,8 @@ export default function About() {
       <p>
         From a design perspective, I care about effective &amp; accessible user
         experiences. It is <strong>vital</strong> that applications are usable
-        by people with different needs, but this does not require sacrificing
-        aesthetics.
+        by people with different needs, but this does not mean compromises need
+        to be made on aesthetics.
       </p>
 
       <p>

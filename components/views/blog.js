@@ -8,8 +8,8 @@ export default function Blog() {
         <h1 id="blog">Blog...</h1>
 
         <p className="mt0">
-          I&apos;ve written a few articles to help others with issues that I
-          struggled with.
+          I&apos;ve written a few articles to provide support where I thought it
+          was lacking.
         </p>
 
         <p className="mv0">Talk to me about:</p>
@@ -39,8 +39,7 @@ export default function Blog() {
         <h2 className="mb0">Write.as</h2>
 
         <p className="mt0">
-          I use Write.as to host these articles. Visit my blog there to read
-          them:
+          I use Write.as to host these. Visit my blog there to read them:
         </p>
 
         <WriteAs />
