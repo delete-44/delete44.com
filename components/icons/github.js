@@ -2,14 +2,9 @@ import React from "react";
 import IconLayout from "@layouts/icon_layout";
 
 // Renders an SVG icon with a text label & a link to the resource.
-// Accepts "vertical" prop that dictates position of the text label
 export default function GitHub(props) {
   return (
-    <IconLayout
-      link={process.env.githubLink}
-      title="GitHub"
-      horizontal={props.horizontal}
-    >
+    <IconLayout link={process.env.githubLink} title="GitHub">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="64"

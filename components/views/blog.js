@@ -43,7 +43,7 @@ export default function Blog() {
           them:
         </p>
 
-        <WriteAs horizontal />
+        <WriteAs />
       </section>
     </section>
   );
