@@ -161,6 +161,19 @@ a {
   }
 }
 
+// Low motion overrides
+// ---------------------------------------------------
+@media (prefers-reduced-motion) {
+  a:after {
+    transition: width 0s ease;
+    -webkit-transition: width 0s ease;
+  }
+
+  .sc-parent {
+    scroll-snap-type: none;
+  }
+}
+
 // Utility classes
 // ---------------------------------------------------
 
