@@ -9,8 +9,30 @@ export default function Blog() {
 
         <p className="mt0">
           I&apos;ve written a few articles to help others with issues that I
-          struggled with, or provide support where I felt it was lacking.
+          struggled with.
         </p>
+
+        <p className="mv0">Talk to me about:</p>
+
+        <ul className="list pl3">
+          <li>
+            <p className="mv0">
+              <strong>Ruby on Rails</strong>,
+            </p>
+          </li>
+
+          <li>
+            <p className="mv0">
+              <strong>React</strong>, &amp;
+            </p>
+          </li>
+
+          <li>
+            <p className="mv0">
+              <strong>Flutter</strong>.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0 mb0-ns mb3">

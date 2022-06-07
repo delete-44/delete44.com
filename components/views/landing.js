@@ -15,7 +15,7 @@ export default function Landing() {
 
         <p>
           I&apos;m a software developer &amp; music nerd,{" "}
-          <strong>constantly</strong> struggling with UI design.
+          with a penchant for <strong>terrible</strong> movies.
         </p>
 
         <p>
