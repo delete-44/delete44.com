@@ -6,6 +6,12 @@ It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-a
 
 ## Local Development
 
+Install dependencies with
+
+```bash
+$ npm install
+```
+
 To run the development server, use
 
 ```bash
