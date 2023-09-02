@@ -7,7 +7,7 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
   env: {
-    twitterLink: "https://twitter.com/_delete44",
+    blueskyLink: "https://bsky.app/profile/delete44.bsky.social",
     githubLink: "https://github.com/delete-44",
     linkedinLink: "https://www.linkedin.com/in/delete44/",
     gravatarLink:

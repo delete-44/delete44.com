@@ -1,7 +1,7 @@
 import React from "react";
 import GitHub from "@icons/github";
 import LinkedIn from "@icons/linkedin";
-import Twitter from "@icons/twitter";
+import Bluesky from "@icons/bluesky";
 
 export default function Landing() {
   return (
@@ -21,7 +21,7 @@ export default function Landing() {
         <p>
           I&apos;m currently learning about accessible design; if you have any
           advice or find problems with my work, please reach out and let me know
-          via <a href={process.env.twitterLink}>Twitter</a>.
+          via <a href={process.env.linkedinLink}>LinkedIn</a>.
         </p>
 
         <small>
@@ -39,7 +39,7 @@ export default function Landing() {
 
         <nav className="inline-flex justify-around mt3 w-100">
           <GitHub />
-          <Twitter />
+          <Bluesky />
           <LinkedIn />
         </nav>
       </section>
