@@ -24,6 +24,10 @@ $underline-size: 2px;
   }
 }
 
+body {
+  background-image: url("../public/topography-light.svg");
+}
+
 // Small screen defaults
 // ---------------------------------------------------
 
@@ -159,6 +163,11 @@ a {
     background: $light;
     color: $highlight-light;
   }
+
+  // Background svg
+  body {
+    background-image: url("../public/topography.svg");
+  }
 }
 
 // Low motion overrides
@@ -180,8 +189,4 @@ a {
 // Border colours
 .b--secondary {
   border-color: $highlight;
-}
-
-body {
-  background-image: url("../public/topography.svg");
 }
