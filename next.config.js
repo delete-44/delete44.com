@@ -15,14 +15,4 @@ module.exports = {
     writeAsLink: "https://write.as/delete44/",
     githubRepoLink: "https://github.com/delete-44/delete44.com",
   },
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "s.gravatar.com",
-        port: "",
-        pathname: "/avatar/*",
-      },
-    ],
-  },
 };

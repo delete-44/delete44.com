@@ -2,7 +2,6 @@ import React from "react";
 import GitHub from "@icons/github";
 import LinkedIn from "@icons/linkedin";
 import Bluesky from "@icons/bluesky";
-import Image from "next/image";
 
 export default function Landing() {
   return (
@@ -32,11 +31,9 @@ export default function Landing() {
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
-        <Image
+        <img
           src={`${process.env.gravatarLink}?s=600`}
           style={{ width: "100%", height: "fit-content" }}
-          width={600}
-          height={600}
           alt=""
         />
 
