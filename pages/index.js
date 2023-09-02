@@ -15,7 +15,7 @@ export default function Home() {
         <a
           href={process.env.writeAsLink}
           target="_blank"
-          rel="noreferer noopener"
+          rel="noreferrer noopener"
         >
           <small>Blog</small>
         </a>
