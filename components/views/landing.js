@@ -2,6 +2,7 @@ import React from "react";
 import GitHub from "@icons/github";
 import LinkedIn from "@icons/linkedin";
 import Bluesky from "@icons/bluesky";
+import Image from "next/image";
 
 export default function Landing() {
   return (
@@ -14,14 +15,14 @@ export default function Landing() {
         <small className="mt0">He/Him</small>
 
         <p>
-          I&apos;m a software developer &amp; music nerd, with a penchant for{" "}
-          <strong>terrible</strong> movies.
+          I&apos;m a software developer &amp; music nerd, with a soft spot for
+          the worst that cinema has to offer.
         </p>
 
         <p>
-          I&apos;m currently learning about accessible design; if you have any
-          advice or find problems with my work, please reach out and let me know
-          via <a href={process.env.linkedinLink}>LinkedIn</a>.
+          I am a staunch advocate for accessible design; if it is not
+          accessible, it is not finished. Let&apos;s talk about this on{" "}
+          <a href={process.env.linkedinLink}>LinkedIn</a>.
         </p>
 
         <small>
@@ -31,10 +32,12 @@ export default function Landing() {
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
-        <img
+        <Image
           src={`${process.env.gravatarLink}?s=600`}
-          className="w-100"
-          alt="A picture of the site author, Anthony"
+          style={{ width: "100%", height: "fit-content" }}
+          width={600}
+          height={600}
+          alt=""
         />
 
         <nav className="inline-flex justify-around mt3 w-100">

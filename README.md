@@ -34,6 +34,10 @@ This app is designed to be "mobile-first" and "light-theme-first"; ie the defaul
 
 Outside of the custom scss in `styles/globals.scss`, styling is completed using [Tachyons](https://tachyons.io/). This generates a huge amount of CSS micro-classes, and can be quite overwhelming if you're coming in blind. A helper website called [Tachyons TLDR](https://tachyons-tldr.vercel.app) is useful for finding the required syntax.
 
+## Icons
+
+We use [Bootstrap Icons](https://icons.getbootstrap.com/) in this site. There also exists an IconLayout to standardise common styles and add a title.
+
 ## Accessibility
 
 Accessibility is a **fundamental** consideration when working on this website. Any changes **must** be made in accordance with [AA WCAG2.1](https://www.w3.org/TR/WCAG21/) at the bare minimum.
