@@ -7,7 +7,7 @@ $highlight-light: #4abc43;
 $subtle: #535957;
 $subtle-light: #a3a3a3;
 
-$underline-size: 2px;
+$underline-size: 1px;
 
 // Global styles - sets line height, font colour, and selected text behaviour
 // ---------------------------------------------------
@@ -52,13 +52,13 @@ h2 {
 
 small {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 100;
   color: $subtle;
 }
 
 p {
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 100;
   color: $dark;
 }
 
@@ -78,8 +78,8 @@ a {
     right: 0;
     display: block;
     background: $dark;
-    transition: width 0.3s ease;
-    -webkit-transition: width 0.3s ease;
+    transition: width 0.2s ease;
+    -webkit-transition: width 0.2s ease;
   }
 
   &:focus:after,
