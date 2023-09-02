@@ -34,10 +34,10 @@ export default function Landing() {
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
         <Image
           src={`${process.env.gravatarLink}?s=600`}
-          className="w-100"
-          width={400}
-          height={400}
-          alt="A picture of the site author, Anthony"
+          style={{ width: "100%", height: "fit-content" }}
+          width={600}
+          height={600}
+          alt=""
         />
 
         <nav className="inline-flex justify-around mt3 w-100">
