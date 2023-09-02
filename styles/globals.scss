@@ -7,7 +7,7 @@ $highlight-light: #4abc43;
 $subtle: #535957;
 $subtle-light: #a3a3a3;
 
-$underline-size: 1px;
+$underline-size: 2px;
 
 // Global styles - sets line height, font colour, and selected text behaviour
 // ---------------------------------------------------
@@ -22,10 +22,6 @@ $underline-size: 1px;
     background: $highlight;
     color: white;
   }
-}
-
-body {
-  background-image: url("../public/topography-light.svg");
 }
 
 // Small screen defaults
@@ -50,19 +46,15 @@ h2 {
   color: $dark;
 }
 
-span {
-  color: $dark;
-}
-
 small {
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 300;
   color: $subtle;
 }
 
 p {
   font-size: 1.25em;
-  font-weight: 100;
+  font-weight: 300;
   color: $dark;
 }
 
@@ -82,8 +74,8 @@ a {
     right: 0;
     display: block;
     background: $dark;
-    transition: width 0.2s ease;
-    -webkit-transition: width 0.2s ease;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
   }
 
   &:focus:after,
@@ -144,8 +136,7 @@ a {
   // Text
   h1,
   h2,
-  p,
-  span {
+  p {
     color: $light;
     text-decoration-color: $highlight-light;
   }
@@ -168,11 +159,6 @@ a {
     background: $light;
     color: $highlight-light;
   }
-
-  // Background svg
-  body {
-    background-image: url("../public/topography.svg");
-  }
 }
 
 // Low motion overrides
@@ -194,4 +180,8 @@ a {
 // Border colours
 .b--secondary {
   border-color: $highlight;
+}
+
+body {
+  background-image: url("../public/topography.svg");
 }
