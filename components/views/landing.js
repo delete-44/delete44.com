@@ -2,6 +2,7 @@ import React from "react";
 import GitHub from "@icons/github";
 import LinkedIn from "@icons/linkedin";
 import Bluesky from "@icons/bluesky";
+import Image from "next/image";
 
 export default function Landing() {
   return (
@@ -31,9 +32,11 @@ export default function Landing() {
       </section>
 
       <section className="w-30-ns w-100 flex-column pt0-ns pt4 mb0-ns mb3">
-        <img
+        <Image
           src={`${process.env.gravatarLink}?s=600`}
           className="w-100"
+          width={400}
+          height={400}
           alt="A picture of the site author, Anthony"
         />
 
