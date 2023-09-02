@@ -50,6 +50,10 @@ h2 {
   color: $dark;
 }
 
+span {
+  color: $dark;
+}
+
 small {
   font-size: 1em;
   font-weight: 100;
@@ -140,7 +144,8 @@ a {
   // Text
   h1,
   h2,
-  p {
+  p,
+  span {
     color: $light;
     text-decoration-color: $highlight-light;
   }

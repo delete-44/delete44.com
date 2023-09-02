@@ -15,14 +15,14 @@ export default function Landing() {
         <small className="mt0">He/Him</small>
 
         <p>
-          I&apos;m a software developer &amp; music nerd, with a penchant for{" "}
-          <strong>terrible</strong> movies.
+          I&apos;m a software developer &amp; music nerd, with a soft spot for
+          the worst that cinema has to offer.
         </p>
 
         <p>
-          I&apos;m currently learning about accessible design; if you have any
-          advice or find problems with my work, please reach out and let me know
-          via <a href={process.env.linkedinLink}>LinkedIn</a>.
+          I am a staunch advocate for accessible design; if it is not
+          accessible, it is not finished. Let&apos;s talk about this on{" "}
+          <a href={process.env.linkedinLink}>LinkedIn</a>.
         </p>
 
         <small>
