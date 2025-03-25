@@ -8,7 +8,7 @@ export default function Landing() {
     <main className="flex flex-row-ns flex-column-reverse justify-between items-center min-vh-100 w-70-ns w-90 center bb b--secondary sc-child">
       <section className="w-60-ns w-100">
         <h1 className="mv0 pv0" id="home">
-          Hi, I&apos;m Anthony...
+          Hi, I&apos;m Eddie...
         </h1>
 
         <small className="mt0">He/Him</small>
