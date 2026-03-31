@@ -4,25 +4,26 @@
   --font-size-lg: 1.8rem;
 }
 
-@font-face {
-  font-family: "iso8";
-  font-display: "swap";
-  src: url(./public/iso8.ttf) format("truetype");
-}
-
 /* ------------ Base styles ------------ */
 
 html {
   background-color: #111111;
   line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
   font-size: var(--font-size-lg);
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: var(--font-size-md);
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 4px 0;
 }
 
 p,
@@ -38,7 +39,7 @@ a {
 }
 
 a {
-  font-family: "iso8", sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* ------------ Layout ------------ */
